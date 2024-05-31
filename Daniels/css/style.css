@@ -1,0 +1,366 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.cont {
+	width: 85%;
+	margin: auto;
+}
+
+.linebar .nav-link {
+	position: relative;
+}
+
+.linebar .nav-link::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 100%;
+	height: 2px;
+	background-color: transparent;
+	transition: background-color 0.3s ease;
+}
+
+.linebar .nav-link.active::after,
+.linebar .nav-link:hover::after {
+	background-color: white;
+}
+
+.head-text {
+	font-size: 6rem;
+}
+
+.head-sec {
+	font-size: 3.2rem;
+}
+
+.icon-bg {
+	background-color: rgba(84, 84, 84, 0.536);
+
+	padding: 0.3rem;
+}
+
+.nav-pills {
+	margin: auto;
+	justify-content: center;
+	background-color: #ffffff;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: var(--bs-nav-pills-link-active-color);
+	background-color: #c9c9c9;
+}
+
+.typeag {
+	font-size: 5rem;
+}
+
+.btn-hero:hover {
+	background-color: #ffffff;
+	color: black;
+}
+
+.btn-r-hero {
+	background-color: #ffffff;
+	color: black;
+}
+
+.btn-r-hero:hover {
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+}
+
+.typeag::after {
+	content: " ";
+	animation: type-animation 5s infinite;
+}
+@keyframes type-animation {
+	0% {
+		content: " |";
+	}
+
+	3% {
+		content: " D|";
+	}
+	5% {
+		content: " De|";
+	}
+	7% {
+		content: " Dev|";
+	}
+	10% {
+		content: " Deve|";
+	}
+	13% {
+		content: " Devel|";
+	}
+	15% {
+		content: " Develo|";
+	}
+	17% {
+		content: " Develop|";
+	}
+	20% {
+		content: " Developm|";
+	}
+	24% {
+		content: " Developme|";
+	}
+	25% {
+		content: " Developmen|";
+	}
+	27% {
+		content: " Development |";
+	}
+
+	30% {
+		content: " Development |";
+	}
+	32% {
+		content: " Developmen|";
+	}
+	35% {
+		content: " Developme|";
+	}
+	37% {
+		content: " Develop|";
+	}
+	40% {
+		content: " Develo|";
+	}
+	42% {
+		content: " Devel|";
+	}
+	45% {
+		content: " Deve|";
+	}
+	47% {
+		content: " Dev|";
+	}
+	50% {
+		content: " De|";
+	}
+	52% {
+		content: " Des|";
+	}
+	55% {
+		content: " Desi|";
+	}
+	57% {
+		content: " Desig|";
+	}
+	60% {
+		content: " Design|";
+	}
+	63% {
+		content: " Designer |";
+	}
+
+	/*Designer */
+	65% {
+		content: " Designer |";
+	}
+
+	67% {
+		content: " Design|";
+	}
+	70% {
+		content: " Desig|";
+	}
+	72% {
+		content: " Desi|";
+	}
+	75% {
+		content: " Des|";
+	}
+	77% {
+		content: " De|";
+	}
+	80% {
+		content: " moha|";
+	}
+	82% {
+		content: " moham|";
+	}
+	85% {
+		content: " mohame|";
+	}
+	87% {
+		content: " mohamed|";
+	}
+	90% {
+		content: " mohamed|";
+	}
+	92% {
+		content: " mohame|";
+	}
+	95% {
+		content: " moha|";
+	}
+	97% {
+		content: " m|";
+	}
+
+	100% {
+		content: " |";
+	}
+}
+
+.service-sec,
+.teams-sec {
+	padding: 12rem 0;
+	background-color: #eee;
+}
+
+.head-section {
+	font-size: 5.2rem;
+	padding: 0 0 8rem 0;
+	z-index: 5;
+}
+
+.hed-dots h2::before {
+	content: "";
+	width: 20%;
+	height: 30px;
+	background-image: url(../imgs/dots.png);
+	background-repeat: repeat;
+	position: absolute;
+	bottom: 5.5rem;
+	left: 40%;
+}
+.service-icon {
+	font-size: 3.2rem;
+	background-color: #eee;
+	width: 7rem;
+	height: 7rem;
+}
+
+.card-body:hover .service-icon {
+	background-color: black;
+	color: #eee;
+	transition: all 0.7s;
+}
+
+.item .layer {
+	left: 5px;
+	top: 120%;
+	right: 5px;
+	bottom: 5px;
+
+	background-color: rgb(255, 255, 255);
+	transition: all 0.1s;
+}
+
+.item:hover .layer {
+	top: 5px;
+}
+
+.icon-lay {
+	background-color: black;
+	color: #eee;
+	padding: 1rem;
+}
+
+.icon-lay:hover {
+	background-color: #eee;
+	color: black;
+}
+
+.testiom {
+	background-color: #f7f7f7;
+}
+
+.btn-test {
+	width: 1rem !important;
+	height: 1rem !important;
+	background-color: rgba(0, 0, 0, 0.573) !important;
+}
+
+.icon-num {
+	font-size: 5.2rem;
+	margin-bottom: 1rem;
+}
+
+.number-text {
+	font-size: 3.2rem;
+}
+
+.numbers {
+	padding: 7.2rem 0 !important;
+}
+
+.card-te {
+	background-color: #555;
+}
+
+.card-w {
+	width: 90% !important;
+}
+.card-c {
+	width: 65% !important;
+}
+
+.card-swip::after {
+	content: "";
+
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	background-color: #f7f7f7;
+	opacity: 0;
+	transition: ease-out all 0.5s;
+	transform: rotateY(0deg) scale(0.6, 0.6);
+}
+
+.card-swip:hover::after {
+	opacity: 1;
+	transform: rotateY(180deg) scale(1, 1);
+}
+
+.butons {
+	opacity: 0;
+	transition: ease-out all 0.5s;
+	transform: rotateY(-180deg) scale(0.6, 0.6);
+}
+
+.card-swip:hover .butons {
+	opacity: 1;
+	transform: rotateY(0deg) scale(1, 1);
+	z-index: 5;
+}
+
+.service-icon:hover {
+	background-color: black;
+	color: #eee;
+	transition: all 0.7s;
+}
+
+.bg-in {
+	background-color: #eee;
+}
+
+.btn-sup {
+	font-size: 1.8rem;
+	width: 12rem;
+	margin-left: 0.8rem;
+	margin-top: 1rem;
+}
+
+header {
+	background-image: url(../imgs/bg.jpg);
+	background-size: cover;
+}
+
+.nav-link {
+	font-size: 1.6rem;
+}
+
+html {
+	scroll-padding-top: 6rem;
+}
